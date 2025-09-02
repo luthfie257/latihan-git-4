@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form Profil Pengguna</title>
+  </head>
+  <body>
+    <h2 align="center">Account Management</h2>
+    <hr width="90%" />
+
+    <table border="1" cellpadding="15" cellspacing="0" width="100%">
+      <tr valign="top">
+        <!-- Kolom kiri -->
+        <td width="35%" align="center">
+          <h3>Foto Profil</h3>
+          <img src="foto.jpg" alt="Foto Profil" width="200" /><br /><br />
+          <input type="file" name="upload" /><br /><br />
+          <hr />
+          <h3>Ganti Password</h3>
+          <form>
+            <label>Password Lama:</label><br />
+            <input type="password" /><br /><br />
+            <label>Password Baru:</label><br />
+            <input type="password" /><br /><br />
+            <input type="submit" value="Ubah Password" />
+          </form>
+        </td>
+
+        <!-- Kolom kanan -->
+        <td width="65%">
+          <h3>Profile Information</h3>
+          <table border="0" cellpadding="8" width="100%">
+            <tr>
+              <td>Username</td>
+              <td><input type="text" value="luthfie257" /></td>
+              <td>First Name</td>
+              <td><input type="text" value="Muhammad" /></td>
+            </tr>
+            <tr>
+              <td>Nickname</td>
+              <td><input type="text" value="Luthfie" /></td>
+              <td>Role</td>
+              <td>
+                <select>
+                  <option>Subscriber</option>
+                  <option>Admin</option>
+                  <option>Editor</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Last Name</td>
+              <td><input type="text" value="Zakaria" /></td>
+              <td>Display Name</td>
+              <td><input type="text" value="Muhammad Luthfie Zakaria" /></td>
+            </tr>
+          </table>
+
+          <h3>Contact Info</h3>
+          <table border="0" cellpadding="8" width="100%">
+            <tr>
+              <td>Email</td>
+              <td><input type="email" value="luthfie257@gmail.com" /></td>
+              <td>WhatsApp</td>
+              <td><input type="text" value="081321899509" /></td>
+            </tr>
+            <tr>
+              <td>Website</td>
+              <td><input type="text" value="..." /></td>
+              <td>Telegram</td>
+              <td><input type="text" value="@mluthfiez" /></td>
+            </tr>
+          </table>
+
+          <h3>About the User</h3>
+          <label>Biographical Info:</label><br />
+          <textarea rows="5" cols="80">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quas magni doloribus unde, excepturi praesentium hic corrupti enim cumque iure nesciunt? Vero fugiat quas quae, fugit ducimus dolore nulla architecto.
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis iusto magnam accusantium repellendus facere reprehenderit itaque, error, ducimus dignissimos vero magni quae corporis, libero esse ipsum et odit suscipit! Ab.
+        </textarea
+          >
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
